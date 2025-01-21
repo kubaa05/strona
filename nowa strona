@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficjalna strona Jakuba Wojtaszka, trenera personalnego i triathlonisty. Skontaktuj się, aby osiągnąć swoje cele sportowe.">
+    <title>Jakub Wojtaszek - Trener Personalny i Triathlonista</title>
+    <style>
+        :root {
+            --rusty-red: #d52941;
+            --zomp: #519e8a;
+            --indigo-dye: #08415c;
+            --platinum: #e5e5e5;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--platinum);
+            color: var(--indigo-dye);
+        }
+
+        header {
+            background-color: var(--indigo-dye);
+            color: var(--white);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--rusty-red);
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+        }
+
+        footer {
+            background-color: var(--indigo-dye);
+            color: var(--white);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid var(--zomp);
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: var(--rusty-red);
+            color: var(--white);
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ab2133;
+        }
+
+        a {
+            color: var(--rusty-red);
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="207771052 13.png" alt="Logo Jakuba Wojtaszka">
+        <h1>Jakub Wojtaszek</h1>
+        <p>Trener Personalny | Triathlonista</p>
+    </header>
+    <nav>
+        <a href="#about">O mnie</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Jestem profesjonalnym trenerem personalnym i triathlonistą z wieloletnim doświadczeniem. Pomagam moim klientom osiągać ich cele sportowe, rozwijać sprawność fizyczną i poprawiać jakość życia.</p>
+        <p>Możesz mi zaufać, niezależnie od tego, czy dopiero zaczynasz swoją przygodę ze sportem, czy chcesz podnieść swoje umiejętności na wyższy poziom.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <div class="contact-card">
+            <p><strong>Jakub Wojtaszek</strong></p>
+            <p>📞 Telefon: <a href="tel:666846152">666 846 152</a></p>
+            <p>📧 Email: <a href="mailto:trener.wojtaszek@gmail.com">trener.wojtaszek@gmail.com</a></p>
+            <p>📷 Instagram: <a href="https://www.instagram.com/kuba_wojtaszek" target="_blank">@kuba_wojtaszek</a></p>
+            <p>🌍 Opinie: <a href="https://www.google.com/search?q=Jakub+Wojtaszek" target="_blank">Sprawdź opinie</a></p>
+        </div>
+        <form>
+            <h3>Formularz kontaktowy</h3>
+            <input type="text" name="name" placeholder="Twoje imię" required>
+            <input type="email" name="email" placeholder="Twój email" required>
+            <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Jakub Wojtaszek. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
