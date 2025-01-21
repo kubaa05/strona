@@ -1,58 +1,147 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficjalna strona Jakuba Wojtaszka, trenera personalnego i triathlonisty. Skontaktuj się, aby osiągnąć swoje cele sportowe.">
+    <title>Jakub Wojtaszek - Trener Personalny i Triathlonista</title>
+    <style>
+        :root {
+            --rusty-red: #d52941;
+            --zomp: #519e8a;
+            --indigo-dye: #08415c;
+            --platinum: #e5e5e5;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--platinum);
+            color: var(--indigo-dye);
+        }
+
+        header {
+            background-color: var(--indigo-dye);
+            color: var(--white);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--rusty-red);
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+        }
+
+        footer {
+            background-color: var(--indigo-dye);
+            color: var(--white);
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid var(--zomp);
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: var(--rusty-red);
+            color: var(--white);
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ab2133;
+        }
+
+        a {
+            color: var(--rusty-red);
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="pl"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Wizytówka trenerska&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>rusty_red: '#d52941',</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>zomp: '#519e8a',</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>indigo_dye: '#08415c',</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>platinum: '#e5e5e5',</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>white: '#ffffff',</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="bg-platinum text-indigo_dye"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="bg-rusty_red text-white p-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-3xl font-bold"&gt;Wizytówka trenerska&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-2 text-lg"&gt;Twój partner w osiąganiu celów sportowych&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;main class="py-12"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="o-mnie" class="container mx-auto px-4 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-2xl font-bold mb-6"&gt;O mnie&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Jestem profesjonalnym trenerem z doświadczeniem w przygotowaniach do triathlonu oraz budowaniu masy mięśniowej.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-indigo_dye text-white py-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;copy; 2025 Wizytówka trenerska&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+    <header>
+        <img src="207771052 13.png" alt="Logo Jakuba Wojtaszka">
+        <h1>Jakub Wojtaszek</h1>
+        <p>Trener Personalny | Triathlonista</p>
+    </header>
+    <nav>
+        <a href="#about">O mnie</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Jestem profesjonalnym trenerem personalnym i triathlonistą z wieloletnim doświadczeniem. Pomagam moim klientom osiągać ich cele sportowe, rozwijać sprawność fizyczną i poprawiać jakość życia.</p>
+        <p>Możesz mi zaufać, niezależnie od tego, czy dopiero zaczynasz swoją przygodę ze sportem, czy chcesz podnieść swoje umiejętności na wyższy poziom.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <div class="contact-card">
+            <p><strong>Jakub Wojtaszek</strong></p>
+            <p>📞 Telefon: <a href="tel:666846152">666 846 152</a></p>
+            <p>📧 Email: <a href="mailto:trener.wojtaszek@gmail.com">trener.wojtaszek@gmail.com</a></p>
+            <p>📷 Instagram: <a href="https://www.instagram.com/kuba_wojtaszek" target="_blank">@kuba_wojtaszek</a></p>
+            <p>🌍 Opinie: <a href="https://www.google.com/search?q=Jakub+Wojtaszek" target="_blank">Sprawdź opinie</a></p>
+        </div>
+        <form>
+            <h3>Formularz kontaktowy</h3>
+            <input type="text" name="name" placeholder="Twoje imię" required>
+            <input type="email" name="email" placeholder="Twój email" required>
+            <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Jakub Wojtaszek. Wszystkie prawa zastrzeżone.</p>
+    </footer>
 </body>
 </html>
